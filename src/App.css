@@ -1,0 +1,35 @@
+
+
+/* Light mode */
+.container.light {
+  background: #f4f4f4;
+  color: #000;
+}
+
+/* Dark mode */
+.container.dark {
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.card.light {
+  background: linear-gradient(135deg, rgba(128, 106, 182, 0.9), rgba(211, 84, 175, 0.9));
+  color: #000;
+}
+
+.card.dark {
+  background: linear-gradient(135deg, rgba(58, 14, 179, 0.9), rgba(182, 11, 133, 0.9));
+  color: #fff;
+}
+.form.light {
+background: white;
+  color: #000;
+}
+
+.form.dark {
+  background: linear-gradient(135deg, rgba(58, 14, 179, 0.9), rgba(182, 11, 133, 0.9));
+  color: #fff;
+}
+
+
+
