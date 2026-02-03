@@ -1,0 +1,48 @@
+.copyright-container {
+
+  padding: 20px 0;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.copyright-container.dark {
+  background: linear-gradient(135deg, rgba(58, 14, 179, 0.9), rgba(182, 11, 133, 0.9));
+  color: #fff;
+}
+
+.copyright-container.light {
+  background: linear-gradient(135deg, rgba(128, 106, 182, 0.9), rgba(211, 84, 175, 0.9));
+  color: #000;
+}
+
+.copyright-text, .brand-name {
+  color: inherit; /* makes text follow dark/light */
+}
+
+
+.copyright-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px; 
+}
+
+.copyright-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  margin: 0;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.brand-name {
+  color: #080808;
+  font-weight: 700;
+}
+
+
+

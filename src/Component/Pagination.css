@@ -1,0 +1,56 @@
+
+
+.bttn-container {
+  position: relative;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  padding: 15px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.explore-container {
+  padding-bottom: 140px; 
+}
+
+.bttn-container.light{
+  background: #ffffff;
+  color: #e5e7eb;
+}
+.bttn-container.dark{
+   background: #000000;
+   color: #2563eb;
+}
+
+.button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 12px; 
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.button:hover {
+  background-color: #1d4ed8;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #374151;
+  background: #f3f4f6;
+  padding: 6px 15px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+.drop.light{
+  background-color: #ffffff;
+  color: #000;
+}
+.drop.dark{
+  background-color: rgb(0, 0, 0);
+  color:#fff;
+}
