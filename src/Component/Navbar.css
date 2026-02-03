@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -154,3 +155,161 @@ ul {
 .nav-dark .dark-text {
   color: #fff;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a {
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+
+.a:hover {
+  background-color: #82329b;
+  color: white;
+}
+
+.nav {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  transition: 0.4s;
+}
+
+.nav-light {
+  background: linear-gradient(
+    135deg,
+    #05098b8c,
+    rgba(104, 38, 197, 0.55),
+    rgba(161, 25, 132, 0.55)
+  );
+  color: #000;
+}
+
+.nav-dark {
+    background: linear-gradient(135deg, rgba(58, 14, 179, 0.9), rgba(182, 11, 133, 0.9));
+
+  color: #fff;
+}
+
+
+.nav h2 {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-dark a {
+  color: #fff;
+}
+
+.nav-light a {
+  color: #000;
+}
+
+/* Active link */
+.nav-link {
+  font-weight: bold;
+  border-bottom: 2px solid currentColor;
+}
+
+/* Button */
+.btn2 {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.3)
+  );
+  color: #000;
+  padding: 7px 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn2:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.85),
+    rgba(255, 255, 255, 0.5)
+  );
+}
+
+/* THEME TOGGLE */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ICON */
+.dark-icon {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* Icon colors by mode */
+.nav-light .dark-icon {
+  background: #fff;
+  color: #000;
+}
+
+.nav-dark .dark-icon {
+  background: #333;
+  color: #fff;
+}
+
+.dark-icon:hover {
+  transform: scale(1.1) rotate(20deg);
+}
+
+/* Text */
+.dark-text {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-light .dark-text {
+  color: #000;
+}
+
+.nav-dark .dark-text {
+  color: #fff;
+}
+>>>>>>> main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .post-container {
   max-width: 75vw;
   width: 100%;
@@ -81,3 +82,88 @@
   background: #1d073d;
   transform: translateY(-2px);
 }
+=======
+.post-container {
+  max-width: 75vw;
+  width: 100%;
+  min-height: 70vh;
+  margin: 30px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #8e44ad, #c0392b);
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  align-items: flex-start;   
+  gap: 35px;
+  position: relative;
+}
+.post-container.light{
+ background: linear-gradient(
+    135deg,
+    #05098b8c,
+    rgba(104, 38, 197, 0.55),
+    rgba(161, 25, 132, 0.55)
+  );
+  color: black;
+}
+.post-container.dark{
+  background: linear-gradient(135deg, rgba(58, 14, 179, 0.9), rgba(182, 11, 133, 0.9));
+  color: #fff;
+}
+
+.post-left img {
+  width: 280px;
+  height: 280px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.post-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   
+  justify-content: flex-start;
+  margin-top: 20px;         
+}
+
+.post-right h1 {
+  font-size: 46px;
+  margin: 0 0 10px 0;
+  text-align: left;          
+}
+
+.post-right p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  
+}
+
+.button-group {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+
+ 
+}
+
+.button-group button {
+  padding: 10px 20px;
+  background: #5d1f92;
+  border: none;
+  border-radius: 11px;
+  color: white;
+  font-weight: 600;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button-group button:hover {
+  background: #1d073d;
+  transform: translateY(-2px);
+}
+>>>>>>> main

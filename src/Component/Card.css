@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -117,3 +118,124 @@
   background: linear-gradient(135deg, #d32f2f, #b71c1c);
 }
 
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card1{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  color: #2360af;
+  text-shadow: 5px 5px 5px rgba(55, 49, 222, 0.3);
+}
+.top-btn {
+  position: fixed;
+  bottom: 20px;
+  font-size: 40px;       
+  color: #c6b6ec;         
+ background-color: #1b56ad; 
+  border-radius: 50%;    
+  padding: 3px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  user-select: none;
+}
+
+.top-btn:hover {  
+  transform: scale(1.2);    
+  box-shadow: 0 4px 12px rgba(21, 23, 143, 0.6);
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, rgba(128, 106, 182, 0.9), rgba(211, 84, 175, 0.9));
+  display: flex;
+  flex-direction: column;
+  width: 330px; 
+  min-height: 400px; 
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.4);
+}
+
+.card img {
+  width: calc(100% - 24px); 
+  margin: 12px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.card-content {
+  padding: 10px 20px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.card-content h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+}
+
+.action-btn {
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  gap: 15px;
+  padding: 20px;
+}
+
+.btn {
+  flex: 1; 
+  max-width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #3f2ca0, #5d1f92);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+.btn:nth-child(2) {
+  background: linear-gradient(135deg, #d32f2f, #b71c1c);
+}
+
+>>>>>>> main

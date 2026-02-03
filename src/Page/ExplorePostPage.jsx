@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import ExplorePosts from "../Component/ExplorePosts";
 
 
@@ -10,4 +11,18 @@ import ExplorePosts from "../Component/ExplorePosts";
       <ExplorePosts />
     </>
   );
+=======
+import ExplorePosts from "../Component/ExplorePosts";
+
+
+
+
+
+ export const ExplorePostPage = () => {
+  return (
+    <>
+      <ExplorePosts />
+    </>
+  );
+>>>>>>> main
 };

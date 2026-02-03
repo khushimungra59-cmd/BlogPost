@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Lottie from "react-lottie-player";
 import loaderAnimation from "../assets/Loading Amimation.json";
@@ -31,3 +32,38 @@ const Loader = () => {
 };
 
 export default Loader;
+=======
+import React from "react";
+import Lottie from "react-lottie-player";
+import loaderAnimation from "../assets/Loading Amimation.json";
+
+const Loader = () => {
+  return (
+    <div
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        backgroundColor: "rgba(255,255,255,0.8)",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        zIndex: 9999,
+      }}
+    >
+      <Lottie
+        loop
+        animationData={loaderAnimation}
+        play
+        style={{ width: 500, height: 500 ,color: "#456997"}}
+      />
+      <p style={{ marginTop: 20, fontSize: 18, color: "#555" }}>Loading...</p>
+    </div>
+  );
+};
+
+export default Loader;
+>>>>>>> main

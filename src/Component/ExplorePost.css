@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .explore-post-container {
   padding: 20px;
   color: #222;
@@ -152,3 +153,159 @@
   color: #ffffff;
  
 }
+=======
+.explore-post-container {
+  padding: 20px;
+  color: #222;
+}
+
+.title-search-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.card-container h3{
+  color: #2360af;
+  font-size: 40px;
+  margin-bottom: 40px;
+ text-shadow: 0 6px 12px rgba(0, 0, 255, 0.25);
+}
+.explore-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2360af;
+}
+
+/* ========== SEARCH ========== */
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #222;
+  font-size: 15px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+/* ========== FORM ========== */
+.form-wrapper {
+  padding: 20px;
+}
+
+.ex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.in {
+  width: 40%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #222;
+  font-size: 15px;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* ========== BUTTONS ========== */
+.btn5 {
+  padding: 10px 18px;
+  background: #4e75a8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn4 {
+  padding: 10px 18px;
+  background: #6ccf6c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.btn4:hover{
+  background-color: #07a207;
+}
+.btun {
+  padding: 10px 18px;
+  background: #e57373;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btun:hover{
+  background: #b92d1d;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 25px;
+  background: #ffffff;
+  padding-top: 10px;
+}
+
+/* ========== DARK MODE ========== */
+.explore-post-container.light {
+  background: #ffffff;
+  color: white;
+}
+
+.explore-post-container.dark .explore-title {
+  color: #93c5fd;
+}
+
+.explore-post-container.dark{
+  background: #000000;
+  color: white;
+}
+
+.form-wrapper.dark {
+  background: #040303;
+  color: white;
+}
+
+.form-wrapper.dark  {
+  background: #060606;
+  color: white;
+}
+
+.card-container.dark {
+  background: #050505;
+}
+
+.card-container.dark h3 {
+  color: #ffffff;
+ 
+}
+>>>>>>> main
